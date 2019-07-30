@@ -57,3 +57,18 @@ https://money.chinabanksoft.com/vendingmachine/trans/wms/relax_view/?id=SM0009&t
 | out_trade_no   | 商户订单号 | 是       |
 | refund_fee     | 退款金额   | 是       |
 
+
+
+## 微信对账接口
+
+请求方式：post
+
+接口：/pay/reconcile/
+
+
+
+| 字段    | 说明               | 是否必填 |
+| ------- | ------------------ | -------- |
+| st_time | 开始时间(20190701) | 是       |
+| en_time | 结束时间(20190731) | 是       |
+
